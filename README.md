@@ -1,6 +1,6 @@
-# AnonyMED-BR
+## AnonyMED-BR
 
-# Guardians of the Data: Medical Record Anonymization in Brazilian Portuguese
+## Guardians of the Data: Medical Record Anonymization in Brazilian Portuguese
 
 This repository contains the resources, dataset, and code for the paper:  
 **"Guardians of the Data: NER and LLMs for Effective Medical Record Anonymization in Brazilian Portuguese"**  
