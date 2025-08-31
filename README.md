@@ -84,10 +84,25 @@ We benchmarked **extractive** and **generative** strategies across several model
 
 ## 📦 Repository Contents
 
-- **Dataset**: [AnonyMED-BR](https://github.com/venturusbr/AnonyMED-BR) (real + synthetic annotated records).  
-- **Model configs**: Fine-tuning scripts for BERT, T5, and GPT evaluation.  
-- **Evaluation framework**: Metrics (precision, recall, F1) + LLM-as-a-Judge.  
-- **Results**: Entity-level and model-level comparisons.  
+This repository provides all the necessary resources to reproduce the experiments described in the paper.  
+
+### 🔹 Datasets
+- **[AnonyMED-BR](https://github.com/venturusbr/AnonyMED-BR)** → real + synthetic annotated Brazilian Portuguese medical records.  
+
+### 🔹 Trained Models
+- **[BERTimbau-AnonyMED-BR](https://huggingface.co/Venturus/BERTimbau-AnonyMED-BR)** → best overall performance (F1 = 0.9270).  
+- **[ptt5-v2-AnonyMED-BR](https://huggingface.co/Venturus/ptt5-v2-AnonyMED-BR)** → generative anonymization with balanced performance on real and synthetic data.  
+- **[mBERT-AnonyMED-BR-syn](https://huggingface.co/Venturus/mBERT-AnonyMED-BR-syn)** → fine-tuned only on synthetic records, outperforming real-data training.  
+
+### 🔹 Training & Evaluation Scripts
+All training and evaluation notebooks are provided in the root folder of this repository (`.ipynb` format):  
+
+- **[BERT_fine_tuning.ipynb](./BERT_fine_tuning.ipynb)** → training & evaluation for BERT-based models (BERTimbau, mBERT, BioBERTpt).  
+- **[T5_fine_tuning.ipynb](./T5_fine_tuning.ipynb)** → training & evaluation for T5-based models (ptt5-v2).  
+- **[GPT-4o_evaluation.ipynb](./GPT-4o_evaluation.ipynb)** → evaluation pipeline for GPT-4o.  
+- **[GPT-4o-mini_evaluation.ipynb](./GPT-4o-mini_evaluation.ipynb)** → evaluation pipeline for GPT-4o mini.  
+- **[LLM_as_a_judge.ipynb](./LLM_as_a_judge.ipynb)** → evaluation using the **LLM-as-a-Judge** methodology with Gemini 2.5 Pro.  
+
 
 ---
 
