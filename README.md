@@ -90,9 +90,9 @@ This repository provides all the necessary resources to reproduce the experiment
 - **[AnonyMED-BR](https://github.com/venturusbr/AnonyMED-BR)** → real + synthetic annotated Brazilian Portuguese medical records.  
 
 ### 🔹 Trained Models
-- **[BERTimbau-AnonyMED-BR](https://huggingface.co/Venturus/BERTimbau-AnonyMED-BR)** → best overall performance (F1 = 0.9270).  
+- **[BERTimbau-AnonyMED-BR](https://huggingface.co/Venturus/BERTimbau-AnonyMED-BR)** → strong overall performance.  
 - **[ptt5-v2-AnonyMED-BR](https://huggingface.co/Venturus/ptt5-v2-AnonyMED-BR)** → generative anonymization with balanced performance on real and synthetic data.  
-- **[mBERT-AnonyMED-BR-syn](https://huggingface.co/Venturus/mBERT-AnonyMED-BR-syn)** → fine-tuned only on synthetic records, outperforming real-data training.  
+- **[mBERT-AnonyMED-BR-syn](https://huggingface.co/Venturus/mBERT-AnonyMED-BR-syn)** → fine-tuned only on synthetic records.  
 
 ### 🔹 Training & Evaluation Scripts
 All training and evaluation notebooks are provided in the root folder of this repository (`.ipynb` format):  
