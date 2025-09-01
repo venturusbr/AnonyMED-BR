@@ -99,8 +99,7 @@ All training and evaluation notebooks are provided in the root folder of this re
 
 - **[BERT_fine_tuning.ipynb](./BERT_fine_tuning.ipynb)** → training & evaluation for BERT-based models (BERTimbau, mBERT, BioBERTpt).  
 - **[T5_fine_tuning.ipynb](./T5_fine_tuning.ipynb)** → training & evaluation for T5-based models (ptt5-v2).  
-- **[GPT-4o_evaluation.ipynb](./GPT-4o_evaluation.ipynb)** → evaluation pipeline for GPT-4o.  
-- **[GPT-4o-mini_evaluation.ipynb](./GPT-4o-mini_evaluation.ipynb)** → evaluation pipeline for GPT-4o mini.  
+- **[GPT-4o_evaluation.ipynb](./GPT-4o_evaluation.ipynb)** → evaluation pipeline for GPT-4o and GPT-4o mini.    
 - **[LLM_as_a_judge.ipynb](./LLM_as_a_judge.ipynb)** → evaluation using the **LLM-as-a-Judge** methodology with Gemini 2.5 Pro.  
 
 
