@@ -87,7 +87,7 @@ We benchmarked **extractive** and **generative** strategies across several model
 This repository provides all the necessary resources to reproduce the experiments described in the paper.  
 
 ### 🔹 Datasets
-- **[AnonyMED-BR](https://github.com/venturusbr/AnonyMED-BR)** → real + synthetic annotated Brazilian Portuguese medical records.  
+- **[AnonyMED-BR](https://huggingface.co/datasets/Venturus/AnonyMED-BR)** → real + synthetic annotated Brazilian Portuguese medical records.  
 
 ### 🔹 Trained Models
 - **[BERTimbau-AnonyMED-BR](https://huggingface.co/Venturus/BERTimbau-AnonyMED-BR)** → strong overall performance.  
