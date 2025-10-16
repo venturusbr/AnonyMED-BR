@@ -108,7 +108,7 @@ All training and evaluation notebooks are provided in the root folder of this re
 ## 📌 Citation
 
 If you use this dataset or models, please cite:  
-
+<!--
 ```bibtex
 @article{schiezzaro2025guardians,
   title={Guardians of the Data: NER and LLMs for Effective Medical Record Anonymization in Brazilian Portuguese},
@@ -118,3 +118,4 @@ If you use this dataset or models, please cite:
   publisher={Frontiers},
   url={https://github.com/venturusbr/AnonyMED-BR}
 }
+-->
