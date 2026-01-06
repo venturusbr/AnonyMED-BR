@@ -108,14 +108,14 @@ All training and evaluation notebooks are provided in the root folder of this re
 ## 📌 Citation
 
 If you use this dataset or models, please cite:  
-<!--
+
 ```bibtex
 @article{schiezzaro2025guardians,
-  title={Guardians of the Data: NER and LLMs for Effective Medical Record Anonymization in Brazilian Portuguese},
-  author={Schiezaro, Mauricio and Rosa, Guilherme and Pedrini, Helio and Campos, Bruno Augusto Goulart},
-  journal={Frontiers in Public Health},
-  year={2025},
-  publisher={Frontiers},
-  url={https://github.com/venturusbr/AnonyMED-BR}
+  title   = {Guardians of the Data: NER and LLMs for Effective Medical Record Anonymization in Brazilian Portuguese},
+  author  = {Schiezaro, Mauricio and Rosa, Guilherme and Pedrini, Helio and Campos, Bruno Augusto Goulart},
+  journal = {Frontiers in Public Health},
+  year    = {2025},
+  doi     = {10.3389/fpubh.2025.1717303},
+  url     = {https://github.com/venturusbr/AnonyMED-BR},
+  publisher = {Frontiers Media SA}
 }
--->
